@@ -1,0 +1,6 @@
+;;; x64sc.watch
+;;;
+;;; summary: x64sc watchpoints
+;;;
+;;; watch [load|store|exec] [address [address] [if <cond_expr>]]
+;;; default is load store

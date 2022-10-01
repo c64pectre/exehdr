@@ -1,0 +1,1 @@
+@call pmp-package.bat
