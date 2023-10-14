@@ -1,5 +1,5 @@
 ;    exehdr: Archetype: Commodore 64: PRG with Basic header to execute assembly code.
-;    Copyright (C) 2022  C64PECTRE
+;    Copyright (C) 2023  C64PECTRE
 ;
 ;    This program is free software: you can redistribute it and/or modify
 ;    it under the terms of the GNU General Public License as published by
@@ -16,6 +16,8 @@
 ;
 ;    Contact: https://github.com/c64pectre/exehdr/ create an issue
 
-; The following symbol is used by linker config to force the module
-; to get included into the output file
-.export __LOADADDR__: absolute = 1
+;;; summary: main
+.proc main
+	; TODO: Your main code here.
+    rts
+.endproc

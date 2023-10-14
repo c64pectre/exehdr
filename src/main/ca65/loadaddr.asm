@@ -1,5 +1,5 @@
 ;    exehdr: Archetype: Commodore 64: PRG with Basic header to execute assembly code.
-;    Copyright (C) 2022  C64PECTRE
+;    Copyright (C) 2023  C64PECTRE
 ;
 ;    This program is free software: you can redistribute it and/or modify
 ;    it under the terms of the GNU General Public License as published by
@@ -17,6 +17,6 @@
 ;    Contact: https://github.com/c64pectre/exehdr/ create an issue
 
 .segment "LOADADDR"
-.include "loadaddr.code"
+.include "loadaddr.code.a65"
 
-.include "loadaddr.export"
+.include "loadaddr.export.a65"

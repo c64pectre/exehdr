@@ -1,5 +1,5 @@
 ;    exehdr: Archetype: Commodore 64: PRG with Basic header to execute assembly code.
-;    Copyright (C) 2022  C64PECTRE
+;    Copyright (C) 2023  C64PECTRE
 ;
 ;    This program is free software: you can redistribute it and/or modify
 ;    it under the terms of the GNU General Public License as published by
@@ -16,17 +16,17 @@
 ;
 ;    Contact: https://github.com/c64pectre/exehdr/ create an issue
 
-.include "main.import"
+.include "main.import.a65"
 
 .include "main.inc"
 
 .segment "CODE"
-.include "main.code"
+.include "main.code.a65"
 
 .segment "RODATA"
-.include "main.rodata"
+.include "main.rodata.a65"
 
 .segment "DATA"
-.include "main.data"
+.include "main.data.a65"
 
-.include "main.export"
+.include "main.export.a65"

@@ -1,5 +1,5 @@
 rem    exehdr: Archetype: Commodore 64: PRG with Basic header to execute assembly code.
-rem    Copyright (C) 2022  C64PECTRE
+rem    Copyright (C) 2023  C64PECTRE
 rem
 rem    This program is free software: you can redistribute it and/or modify
 rem    it under the terms of the GNU General Public License as published by
